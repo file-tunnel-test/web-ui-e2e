@@ -28,14 +28,14 @@
       "fullName": "file-tunnel/ftnl-web-server.rs",
       "exists": true,
       "branch": "main",
-      "sha": "1ea52ef5135e1601b5437a8168af05af3c2cc1a6",
+      "sha": "f57b6f78a4d2bdaf2fcfeccb1ba7aa76bd29c00e",
       "visibility": "public"
     },
     {
       "fullName": "file-tunnel/ftnl-ui-components",
       "exists": true,
       "branch": "main",
-      "sha": "b675551b6152da73452e2b4073004d5022487c3b",
+      "sha": "cbcd1855b249aa0de9a8d0d6208ff8676ccb796a",
       "visibility": "public"
     }
   ],
@@ -45,6 +45,9 @@
     "immutableSourcePins": true,
     "pullRequestCredentials": false,
     "leastPrivilege": true,
-    "redactSecretsAndRawMedia": true
+    "redactSecretsAndRawMedia": true,
+    "protectedSourceIntegration": true,
+    "protectedSourceIntegrationStatus": "not-executed-unless-protected-lane-runs",
+    "productOverlayPreserved": true
   }
 }
